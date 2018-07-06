@@ -14,7 +14,7 @@ def first_challenge
   }
 
   #your code here
-[:favorite_icecream_flavors].delete("strawberry")
+[:contacts][:favorite_icecream_flavors].delete("strawberry")
 
 
   #remember to return your newly altered contacts hash!
