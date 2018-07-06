@@ -7,7 +7,12 @@ def second_challenge
   }
 
   #code your solution here!
-
+  newarr = [] 
   
-
+  groceries.each do |type, food|
+    food.each do |x|
+      newarr << x 
+    end
+  end
+  newarr
 end
